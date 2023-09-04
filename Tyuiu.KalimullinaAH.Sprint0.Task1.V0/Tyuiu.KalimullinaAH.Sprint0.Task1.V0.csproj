@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CF41AF5C-C400-4E9B-83AB-03DB32A8BC8A}</ProjectGuid>
+    <ProjectGuid>{12EC0E13-097F-4CB7-BA13-D190B9438D14}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tyuiu.KalimullinaAH.Sprint0.Task0.V0</RootNamespace>
-    <AssemblyName>Tyuiu.KalimullinaAH.Sprint0.Task0.V0</AssemblyName>
+    <RootNamespace>Tyuiu.KalimullinaAH.Sprint0.Task1.V0</RootNamespace>
+    <AssemblyName>Tyuiu.KalimullinaAH.Sprint0.Task1.V0</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,9 +47,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\.editorconfig">
-      <Link>.editorconfig</Link>
-    </None>
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
