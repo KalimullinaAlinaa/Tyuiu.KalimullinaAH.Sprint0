@@ -11,10 +11,8 @@ namespace Tyuiu.KalimullinaAH.Sprint0.Task2.V0.Test
         public void CheckGetMessageValid()
         { 
         
-            //область создания методов тестирования, методов из библиотеки
             var name = "Алина";
             var res = DataService.GetMessage(name);
-            // Вызов класса Assert и метод AreEqual
             Assert.AreEqual("Привет,Алина",res);
         }
     }
